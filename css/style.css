@@ -1,0 +1,68 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 20px;
+  margin-top: 10%;
+  margin-left: 25%;
+  margin-right: 10%;
+}
+
+#content {
+  padding: 1%;
+  justify-content: center;
+  height: auto;
+  width: 80%;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 5%;
+  font-size: 25px;
+  padding-top: 15px;
+}
+
+#email {
+  padding: 5px;
+  margin-left: 50px;
+  width: 80%;
+}
+
+#input-email label {
+  margin-left: 50px;
+}
+
+form {
+  padding: 5%;
+  background-color: #9ab8e6;
+  border-radius: 15px;
+  box-shadow: 10px 10px #3c5478;
+}
+
+#input-age-verification {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5%;
+  margin-top: 10px;
+  margin-left: 50px;
+}
+
+#input-age-verification input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+#submit {
+  font-size: 35px;
+  border-radius: 20px;
+  border: solid;
+  border-color: #3c5478;
+  width: 90%;
+  margin-left: 30px;
+  color: #3c5478;
+  background-color: #c4dbff;
+  text-align: center;
+}
